@@ -1,8 +1,8 @@
-alert("¡Bienvenido! Este programa realizará operaciones matemáticas básicas.");
+alert("¡Bienvenido a mates en linea, a continuación podrá realizar sumas, restas, multiplicaciones o divisiones:");
 
-let num1 = parseFloat(prompt("Por favor, ingrese el primer número: "));
+let num1 = parseFloat(prompt("Por favor, ponga el primer número aquí: "));
 
-let num2 = parseFloat(prompt("Ahora, ingrese el segundo número: "));
+let num2 = parseFloat(prompt("Ahora, ponga el segundo número aquí: "));
 
 let suma = num1 + num2;
 let resta = num1 - num2;
