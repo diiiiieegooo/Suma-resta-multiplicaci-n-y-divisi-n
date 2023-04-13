@@ -1,12 +1,12 @@
-numero1 = float(input("Por favor, ingrese el primer número: "))
-numero2 = float(input("Por favor, ingrese el segundo número: "))
+let num1 = parseFloat(prompt("Ingrese el primer número: "));
+let num2 = parseFloat(prompt("Ingrese el segundo número: "));
 
-suma = numero1 + numero2
-resta = numero1 - numero2
-multiplicacion = numero1 * numero2
-division = numero1 / numero2
+let suma = num1 + num2;
+let resta = num1 - num2;
+let multiplicacion = num1 * num2;
+let division = num2 !== 0 ? num1 / num2 : "No se puede dividir por cero.";
 
-print("La suma de", numero1, "y", numero2, "es:", suma)
-print("La resta de", numero1, "y", numero2, "es:", resta)
-print("La multiplicación de", numero1, "y", numero2, "es:", multiplicacion)
-print("La división de", numero1, "y", numero2, "es:", division)
+console.log("El resultado de la suma es:", suma);
+console.log("El resultado de la resta es:", resta);
+console.log("El resultado de la multiplicación es:", multiplicacion);
+console.log("El resultado de la división es:", division);
