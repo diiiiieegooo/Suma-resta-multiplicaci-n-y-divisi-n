@@ -6,6 +6,7 @@ let num1 = parseFloat(prompt("Número 1: "));
 console.log("Ahora, ingrese el segundo número:");
 let num2 = parseFloat(prompt("Número 2: "));
 
+console.log("Seleccione la operación que desea realizar")
 let suma = num1 + num2;
 let resta = num1 - num2;
 let multiplicacion = num1 * num2;
